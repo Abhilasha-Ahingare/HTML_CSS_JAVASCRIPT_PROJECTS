@@ -63,5 +63,5 @@ Contributions are always welcome! Here’s how you can contribute to this reposi
 6. **Create a Pull Request**: Open a Pull Request from your branch to the main repository.
 ---
 
-> Made with ❤️ and lots of ☕ by [Abhilasha_Ahingare](https://github.com/Abhilasha_Ahingare).
+> Made with ❤️ and lots of ☕ by [Abhilasha_Ahingare](https://github.com/Abhilasha-Ahingare).
 
