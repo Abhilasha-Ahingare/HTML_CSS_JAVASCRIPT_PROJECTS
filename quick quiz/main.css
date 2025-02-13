@@ -1,0 +1,126 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 98vh;
+  width: 98vw;
+  background: linear-gradient(-272deg, rgba(31, 66, 81, 0.9960784314), rgba(87, 155, 169, 0.801));
+  animation: bgColor 6s ease-in-out infinite;
+}
+
+/* Header Styles */
+header {
+  position: relative;
+  bottom: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 13px;
+}
+
+header h1 {
+  text-transform: capitalize;
+  font-size: 37px;
+  letter-spacing: 9px;
+  transform: skew(-28deg, 0deg);
+}
+
+header span {
+  font-size: 29px;
+  cursor: pointer;
+}
+
+/* Content Styles */
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(29, 65, 80, 0.9960784314);
+  height: 280px;
+  width: 463px;
+  padding: 9px;
+  border-radius: 14px;
+  box-shadow: 0px 0px 8px 2px;
+}
+.content .start-game {
+  padding: 10px;
+  width: 93px;
+  border-radius: 25px;
+  cursor: pointer;
+  text-transform: capitalize;
+  border: none;
+  font-size: 17px;
+  box-shadow: 0px 0px 3px 2px;
+}
+/* Text Area Styles */
+
+.text-area {
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+.text-area h3 {
+  padding: 10px;
+  text-transform: capitalize;
+  font-size: 27px;
+  color: hsla(40, 7%, 83%, 0.847);
+}
+.text-area input {
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 11px;
+  box-shadow: 0px 0px 9px 2px;
+  border: none;
+}
+/* Button Styles */
+
+.text-area button {
+  padding: 10px;
+  width: 93px;
+  border-radius: 25px;
+  cursor: pointer;
+  text-transform: capitalize;
+  border: none;
+  margin: 22px;
+  position: relative;
+  left: 98px;
+  box-shadow: 0px 0px 3px 2px;
+}
+/* Global Elements */
+span {
+  color: rgba(255, 255, 255, 0.886);
+  font-size: 20px;
+  padding: 2px;
+}
+
+/* animation style */
+
+@keyframes bgColor {
+  10% {
+    background: rgba(31, 66, 81, 0.9960784314);
+  }
+  25% {
+    background: rgba(32, 124, 163, 0.9960784314);
+  }
+  50% {
+    background: rgba(6, 51, 70, 0.9960784314);
+  }
+  75% {
+    background: rgba(86, 160, 192, 0.7450980392);
+  }
+  100% {
+    background: rgba(58, 157, 200, 0.4666666667);
+  }
+}
