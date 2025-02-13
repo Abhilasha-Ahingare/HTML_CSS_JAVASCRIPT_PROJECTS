@@ -4,15 +4,12 @@
 
 A simple and effective project built using **HTML**, **CSS**, and **JavaScript** to demonstrate modern web development skills.
 
-## 🌟 **Overview**
-
-This project is a visually stunning and fully functional application designed to solve real-world problems while showcasing modern web development techniques.
-
 ## 🚀 Projects Included
 
 Below is a list of some mini projects included in this repository:
 
 1. **toast notification:**
+2. **quick quiz:**
 
 More projects will be added soon! Stay tuned. 🎉
 
