@@ -10,6 +10,7 @@ Below is a list of some mini projects included in this repository:
 
 1. **toast notification:**
 2. **quick quiz:**
+3. **ask me question:**
 
 More projects will be added soon! Stay tuned. 🎉
 
