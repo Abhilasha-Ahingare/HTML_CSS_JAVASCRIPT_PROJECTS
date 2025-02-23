@@ -1,0 +1,66 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+  width: 98vw;
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+
+/* Container Styles */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 488px;
+  padding: 20px;
+  width: 809px;
+}
+.container button {
+  padding: 12px 12px;
+  border-radius: 50%;
+  background-color: #3E8AD5;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Content Styles */
+.content {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  height: 323px;
+  width: 625px;
+  padding: 2px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+.content img {
+  height: 300px;
+  width: 216px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  border-radius: 3px;
+  cursor: pointer;
+  filter: grayscale(1);
+  transition: all 0.3s ease-in-out;
+}
+.content img:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}/*# sourceMappingURL=main.css.map */
