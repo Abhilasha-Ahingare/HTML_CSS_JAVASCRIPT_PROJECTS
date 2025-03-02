@@ -1,0 +1,72 @@
+/* Global Styles */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    width: 98vw;
+    font-size: 19px;
+    background: linear-gradient(195deg, #a094db, #7059e2);
+    margin: 0; /* Added to remove default margin */
+    padding: 0; /* Added to remove default padding */
+    box-sizing: border-box; /* Added to include padding and border in width and height */
+  }
+  
+  /* Content Styles */
+  
+  .content {
+    display: grid;
+    grid-template-columns: 1fr; /* Added to define grid columns */
+    grid-gap: 20px; /* Added to define gap between grid items */
+    padding: 20px; /* Added to add padding to content */
+  }
+  
+  /* Heading Styles */
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px; /* Added to add margin below heading */
+  }
+  
+  /* Label Styles */
+  
+  label {
+    font-size: 27px;
+    text-transform: capitalize;
+    padding: 10px 0px;
+    display: block; /* Added to make label a block element */
+  }
+  
+  /* Input Styles */
+  
+  input {
+    height: 32px;
+    font-size: 20px;
+    padding: 10px; /* Added to add padding to input */
+    border: 1px solid #ccc; /* Added to add border to input */
+    border-radius: 5px; /* Added to add border radius to input */
+  }
+  
+  /* Button Styles */
+  
+  button {
+    height: 38px;
+    margin-top: 14px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Added to add background color to button */
+    color: #fff; /* Added to add text color to button */
+    border: none; /* Added to remove border from button */
+    padding: 10px 20px; /* Added to add padding to button */
+  }
+  
+  /* Span Styles */
+  
+  span {
+    margin-top: 17px;
+    font-size: 24px;
+    display: block; /* Added to make span a block element */
+  }
