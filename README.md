@@ -12,6 +12,7 @@ Below is a list of some mini projects included in this repository:
 2. **quick quiz:**
 3. **ask me question:**
 4. **image gallery:**
+5. **trip calculator:**
 
 More projects will be added soon! Stay tuned. 🎉
 
