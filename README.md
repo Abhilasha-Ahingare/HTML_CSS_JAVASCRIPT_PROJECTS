@@ -13,6 +13,7 @@ Below is a list of some mini projects included in this repository:
 3. **ask me question:**
 4. **image gallery:**
 5. **trip calculator:**
+6. **movie trailer:**
 
 More projects will be added soon! Stay tuned. 🎉
 
