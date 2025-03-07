@@ -23,6 +23,7 @@ More projects will be added soon! Stay tuned. 🎉
 - **HTML5**: For structure.
 - **CSS3**: For styling and responsiveness.
 - **JavaScript**: For interactivity and animations.
+- **SASS**
 
 ## 🌟 How to Use
 
