@@ -1,0 +1,63 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 98vh;
+    font-family: Arial, sans-serif;
+    background-color: black;
+  }
+  
+  /* Image Styles */
+  
+  img {
+    width: 455px;
+    height: 455px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1{
+    color: white;
+
+  }
+  /* Paragraph Styles */
+  
+  p {
+    width: 326px;
+    line-height: 21px;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.698);
+  }
+  
+  /* Button Styles */
+  
+  button {
+    height: 44px;
+    width: 139px;
+    border-radius: 6px;
+    font-size: 17px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
