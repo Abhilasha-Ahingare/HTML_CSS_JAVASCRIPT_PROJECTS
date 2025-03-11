@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(89deg, rgb(93, 73, 35), rgb(202, 162, 75));
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  padding: 10px;
+  position: relative;
+  top: 110px;
+  width: 455px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px 2px;
+  background-color: rgba(174, 163, 116, 0.8823529412);
+}
+.container h1 {
+  padding: 13px;
+  margin: 5px;
+}
+.container input {
+  padding: 10px;
+  font-size: 20px;
+  width: 66px;
+  text-align: center;
+  margin: 7px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid;
+}
+.container input::-moz-placeholder {
+  color: black;
+}
+.container input::placeholder {
+  color: black;
+}
+.container button {
+  padding: 11px;
+  margin: 17px;
+  border-radius: 20px;
+  border: none;
+  background: #5a462f;
+  width: 121px;
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+.add {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid;
+  width: 80%;
+  display: none;
+}
+.add span {
+  padding: 10px;
+  font-size: 23px;
+  font-weight: 500;
+}
+.add .delete {
+  margin-left: 212px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.checkbox {
+  height: 0;
+  width: 0;
+  cursor: pointer;
+  display: none;
+}
+
+.checkbox::before {
+  content: "";
+  position: absolute;
+  height: 21px;
+  width: 50px;
+  top: 291px;
+  right: 107px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #76602c;
+}
+
+.checkbox::after {
+  content: "";
+  position: absolute;
+  background-color: antiquewhite;
+  padding: 8px 8px;
+  border-radius: 50%;
+  right: 138px;
+  top: 293px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.checkbox:checked::after {
+  transform: translateX(29px);
+  transition: all 0.6s ease-in-out;
+}
+
+audio {
+  height: 0;
+}/*# sourceMappingURL=main.css.map */
