@@ -1,0 +1,26 @@
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 98vh;
+            width: 98vw;
+        }
+
+        #timer{
+            font-size: 60px;
+            color: darkcyan;
+            text-align: center;
+        }
+        
+        button{
+            margin-top: 30px;
+            border-radius: 8px;
+            height: 40px;
+            width: 150px;
+            color: whitesmoke;
+            background-color:darkcyan ;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+        }
