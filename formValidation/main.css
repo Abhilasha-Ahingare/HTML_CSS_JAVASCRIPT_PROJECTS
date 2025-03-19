@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+  width: 98vw;
+  background: linear-gradient(172deg, #436836, #708c59);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 279px;
+  padding: 10px;
+  justify-content: space-around;
+  text-transform: capitalize;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  padding: 9px;
+  width: 74px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-left: 106px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background: #436836;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #708c59;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+span {
+  color: rgb(60, 17, 17);
+}
+
+input {
+  outline: none;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid rgb(80, 80, 80);
+  transition: border-color 0.3s ease;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+input:focus {
+  border-color: #436836;
+  box-shadow: 0 0 5px rgba(67, 104, 54, 0.3);
+}
+
+label {
+  font-size: 25px;
+  color: #2c4423;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+/*# sourceMappingURL=main.css.map */
