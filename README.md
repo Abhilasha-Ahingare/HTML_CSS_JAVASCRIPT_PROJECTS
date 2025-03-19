@@ -14,6 +14,7 @@ Below is a list of some mini projects included in this repository:
 4. **image gallery:**
 5. **trip calculator:**
 6. **movie trailer:**
+7. **form validation:**
 
 More projects will be added soon! Stay tuned. 🎉
 
