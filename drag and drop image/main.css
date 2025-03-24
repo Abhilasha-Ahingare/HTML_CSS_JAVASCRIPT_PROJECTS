@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.938);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+#drop-area {
+  width: 500px;
+  height: 300px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.862745098);
+  text-align: center;
+  border-radius: 20px;
+}
+
+.img-view {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: 2px solid black;
+  background: #fff;
+  background-size: cover;
+  background-position: center;
+}
+
+img {
+  width: 100px;
+  margin-top: 25px;
+}
+
+span {
+  text-transform: capitalize;
+  font-size: 21px;
+  display: block;
+}
+
+p {
+  text-transform: capitalize;
+  font-size: 21px;
+}/*# sourceMappingURL=main.css.map */
