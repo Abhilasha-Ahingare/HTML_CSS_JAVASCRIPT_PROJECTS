@@ -16,6 +16,7 @@ Below is a list of some mini projects included in this repository:
 6. **movie trailer:**
 7. **form validation:**
 8. **drag and drop image:**
+9. **change background color:**
 
 More projects will be added soon! Stay tuned. 🎉
 
